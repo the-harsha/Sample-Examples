@@ -20,9 +20,7 @@ public class Program
             if (occurances.ContainsKey(key))
                 occurances[key]++;
             else
-            {
                 occurances[key] = 1;
-            }
         }
         string jsonOutput = JsonConvert.SerializeObject(occurances, Newtonsoft.Json.Formatting.Indented);
 
