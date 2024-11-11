@@ -18,9 +18,7 @@ public class Program
             var key = item.Trim().ToLower();
 
             if (occurances.ContainsKey(key))
-            {
                 occurances[key]++;
-            }
             else
             {
                 occurances[key] = 1;
