@@ -8,5 +8,6 @@ namespace Sample_Examples
 {
     internal class Testing2
     {
+        //implemented code and resolved PR comments
     }
 }
